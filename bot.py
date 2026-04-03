@@ -9,17 +9,18 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 # ===== CONFIG =====
-TOKEN = "YOUR_BOT_TOKEN"
-MONGO_URI = "mongodb://localhost:27017/"
-CHANNEL_ID = -100XXXXXXXXXX
-FORCE_CHANNEL = "@yourchannel"   # must join
+TOKEN = "8739659342:AAEtMfrIdAo5nvhv64N4mtoNNTsNxJyfylw"
+MONGO_URI = "mongodb+srv://Sanjuram2k4:Sanjuram@filterbot.7jhv2qu.mongodb.net/?appName=filterbot"
+CHANNEL_ID = -1003635542803
+FORCE_CHANNEL = -1001798846083   # must join
 
-AUTO_DELETE_TIME = 60  # seconds
+AUTO_DELETE_TIME = 300  # seconds
 
 RANDOM_IMAGES = [
-    "https://picsum.photos/400/300",
-    "https://placekitten.com/400/300",
-    "https://source.unsplash.com/random/400x300"
+    "https://postimg.cc/dDTnngyd",
+    "https://postimg.cc/3WD99zvX",
+    "https://postimg.cc/14NMMbqr",
+    "https://postimg.cc/14NMMbqr"
 ]
 
 REACTIONS = ["🔥", "😍", "🎬", "💯", "👍"]
