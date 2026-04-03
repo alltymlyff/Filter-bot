@@ -9,8 +9,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 # ===== CONFIG =====
-TOKEN = "8739659342:AAEtMfrIdAo5nvhv64N4mtoNNTsNxJyfylw"
-MONGO_URI = "mongodb+srv://Sanjuram2k4:Sanjuram@filterbot.7jhv2qu.mongodb.net/?appName=filterbot"
+TOKEN = ""
+MONGO_URI = ""
 CHANNEL_ID = -1003635542803
 FORCE_CHANNEL = -1001798846083   # must join
 
